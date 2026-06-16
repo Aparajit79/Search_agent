@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+search_index.db
+search_index.db-shm
+search_index.db-wal
+large_bench_workspace/
+large_bench_index.db
+test_search_workspace/
+test_search_index.db
