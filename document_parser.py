@@ -3,7 +3,7 @@ import pypdf
 import docx
 import pptx
 
-# Extensions we support
+
 TEXT_EXTENSIONS = {
     '.txt', '.py', '.md', '.json', '.xml', '.csv', '.log', 
     '.js', '.ts', '.html', '.css', '.ini', '.cfg', '.yaml', 

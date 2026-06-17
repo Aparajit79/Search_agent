@@ -7,7 +7,6 @@ DATABASE_FILE = "search_index.db"
 def init_database():
     conn = sqlite3.connect(DATABASE_FILE)
     cursor = conn.cursor()
-    # Reset table schema on start to avoid column mismatch issues
     cursor.execute("DROP TABLE IF EXISTS file_content_fts;")
     cursor.execute("""
     CREATE VIRTUAL TABLE file_content_fts USING fts5(
@@ -80,7 +79,7 @@ def search_index(query_str):
         rows = cursor.fetchall()
         
         if not rows:
-            print("\n❌ No matching files found.")
+            print("\nNo matching files found.")
         else:
             print(f"\n--- Found {len(rows)} matches ---")
             for idx, row in enumerate(rows, 1):

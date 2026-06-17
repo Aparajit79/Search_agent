@@ -2,7 +2,7 @@ import os
 import sys
 from database import run_indexer, search_index
 
-# Configure standard output to handle special characters on Windows without crashing
+
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
@@ -18,17 +18,16 @@ if __name__ == '__main__':
     # Step 2: Index all current files inside target folder
     run_indexer(TARGET_FOLDER)
     
-    # Step 3: Start interactive loop
     print("\n" + "=" * 50)
-    print("Welcome to your Simplified Search Agent!")
-    print("Type your search query and press Enter.")
+    print("Welcome to Search Agent!")
+    print("Enter the query and press Enter.")
     print("Type 'exit' to quit.")
     print("=" * 50)
     
     while True:
         user_input = input("\nEnter search term: ").strip()
         if user_input.lower() in ('exit', 'quit'):
-            print("Goodbye!")
+            print("Thank You!")
             break
         if not user_input:
             continue
