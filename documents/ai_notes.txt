@@ -1,0 +1,9 @@
+Artificial Intelligence is transforming modern software systems.
+
+Machine Learning is a subset of Artificial Intelligence that enables systems to learn from data.
+
+Deep Learning uses neural networks with multiple layers to solve complex problems.
+
+Natural Language Processing helps computers understand and generate human language.
+
+Search engines use indexing and ranking algorithms to retrieve relevant information quickly.

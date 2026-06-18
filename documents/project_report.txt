@@ -1,0 +1,9 @@
+Project Name: Search Agent
+
+The Search Agent is developed using Python and SQLite FTS5.
+
+The system scans documents, extracts textual content, and stores the information in a searchable database.
+
+Supported file formats include TXT, PDF, DOCX, and PPTX.
+
+Future enhancements include semantic search, OCR support, and AI-powered document summarization.

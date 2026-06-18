@@ -1,0 +1,9 @@
+Company employees should follow professional communication practices.
+
+Daily work updates should be submitted before the end of each working day.
+
+All project documentation must be maintained in the designated repository.
+
+Employees should regularly back up important project files and source code.
+
+Team collaboration and knowledge sharing are encouraged.
